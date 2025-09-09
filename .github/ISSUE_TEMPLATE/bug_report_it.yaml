@@ -6,13 +6,11 @@ body:
   attributes:
     value: |
       > [!WARNING]
-      > Per favore **non inserire qui informazioni personali o sensibili**
-      >   (incluse *password* e altri codici che vuoi o dovresti mantenere segreti).
+      > Per favore **non inserire qui informazioni personali o sensibili** (incluse *password* e altri codici che vuoi o dovresti mantenere segreti).
       >
       > Ricorda che questa repository (e con essa la totalità dei suoi contenuti) è pubblica!
       >
-      > Se vuoi invece contattarci in privato, scrivici via e-mail
-      > (la trovi [qui](https://spaziotricolore.it/people)).
+      > Se vuoi invece contattarci in privato, scrivici via e-mail (la trovi [qui](https://spaziotricolore.it/people)).
 - type: textarea
   attributes:
     label: Il problema
