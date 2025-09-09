@@ -1,0 +1,52 @@
+name: Segnalazione bug spaziotricolore.it
+description: Segnala un problema con il sito web (:it:)
+type: Bug
+body:
+- type: input
+  attributes:
+    label: Il problema
+    description: Descrivi il problema che hai incontrato
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Riproduzione
+    description: Indica tutti i passaggi necessari a riprodurre il problema
+  validations:
+    required: true
+- type: dropdown
+  attributes:
+    label: Dispositivo
+    description: Seleziona il tipo di dispositivo su cui hai riscontrato il problema
+    options:
+    - Mobile Apple (iOS, iPadOS, watchOS)
+    - Mobile non-Apple (Android, etc.)
+    - Computer (macOS, Windows, Linux, ChromeOS, etc.)
+  validations:
+    required: true
+- type: dropdown
+  attributes:
+    label: Browser web
+    description: Seleziona il browser web su cui hai riscontrato il problema
+    options:
+    - Google Chrome
+    - Mozilla Firefox
+    - Microsoft Edge
+    - Apple Safari
+    - Opera
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Altre informazioni
+    description: |
+      Indica altre informazioni che ritieni possano esserci utili nel riprodurre o investigare il problema.
+
+      > [!WARNING] Per favore **non inserire informazioni personali o sensibili**
+      >   (incluse **password** e altri codici che vuoi o dovresti mantenere segreti).
+      >
+      > Ricorda che questa repository (e con essa la totalità dei suoi contenuti) è pubblica!
+      > Se vuoi invece contattarci in privato, scrivici via e-mail (la trovi [qui](https://spaziotricolore.it/people))!
+- type: markdown
+  attributes:
+    value: Grazie per la segnalazione!
